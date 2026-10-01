@@ -8,29 +8,30 @@ const rootBase = isDocsPage ? '../../' : '';
 
 document.getElementById("sidebar").innerHTML = `
 <h3>目录</h3>
-<p><a href="${chapterBase}1/1.html">① 下载安装练习程序</a></p>
+<p><a href="${rootBase}">※ 返回教程首页</a></p>
+<p><a href="${chapterBase}1/1">① 下载安装练习程序</a></p>
 <ul>
-    <li><a href="${chapterBase}1/1-1.html">1.1 常规安装</a></li>
-    <li><a href="${chapterBase}1/1-2.html">1.2 免安装版</a></li>
+    <li><a href="${chapterBase}1/1-1">1.1 常规安装</a></li>
+    <li><a href="${chapterBase}1/1-2">1.2 免安装版</a></li>
 </ul>
-<p><a href="${chapterBase}2/2.html">② 下载安装依赖软件</a></p>
+<p><a href="${chapterBase}2/2">② 下载安装依赖软件</a></p>
 <ul>
-    <li><a href="${chapterBase}2/2-1.html">2.1 安装 Python3.4</a></li>
-    <li><a href="${chapterBase}2/2-2.html">2.2 安装 WPS Office</a></li>
+    <li><a href="${chapterBase}2/2-1">2.1 安装 Python3.4</a></li>
+    <li><a href="${chapterBase}2/2-2">2.2 安装 WPS Office</a></li>
 </ul>
-<p><a href="${chapterBase}3/3.html">③ 一些常见问题</a></p>
+<p><a href="${chapterBase}3/3">③ 一些常见问题</a></p>
 <ul>
-    <li><a href="${chapterBase}3/3-1.html">3.1 “生成考卷”时报错</a></li>
-    <li><a href="${chapterBase}3/3-2.html">3.2 “答题文件不存在”</a></li>
-    <li><a href="${chapterBase}3/3-3.html">3.3 “IDLE常见问题”</a></li>
-    <li><a href="${chapterBase}3/3-4.html">3.4 “找不到Python”</a></li>
+    <li><a href="${chapterBase}3/3-1">3.1 “生成考卷”时报错</a></li>
+    <li><a href="${chapterBase}3/3-2">3.2 “答题文件不存在”</a></li>
+    <li><a href="${chapterBase}3/3-3">3.3 “IDLE常见问题”</a></li>
+    <li><a href="${chapterBase}3/3-4">3.4 “找不到Python”</a></li>
 </ul>
-<p><a href="${chapterBase}4/4.html">④ 练习试题答案</a></p>
+<p><a href="${chapterBase}4/4">④ 练习试题答案</a></p>
 <ul>
-    <li><a href="${chapterBase}4/4-1.html">4.1 2024年题库答案</a></li>
-    <li><a href="${chapterBase}4/4-2.html">4.2 2025年题库答案</a></li>
+    <li><a href="${chapterBase}4/4-1">4.1 2024年题库答案</a></li>
+    <li><a href="${chapterBase}4/4-2">4.2 2025年题库答案</a></li>
 </ul>
-<p><a href="${rootBase}history.html">文章更新历史记录</a></p>
+<p><a href="${rootBase}history">文章更新历史记录</a></p>
 `;
 
 document.addEventListener('DOMContentLoaded', function() {
